@@ -1,0 +1,34 @@
+---
+title: "Final Quiz"
+author: "Yevhenii Romanenko"
+date: "2023-03-22"
+output: slidy_presentation
+---
+
+```{r include=FALSE}
+data(mtcars)
+```
+
+
+## Dataset
+
+For final quiz mtcars dataset was chosen
+```{r}
+head(mtcars, 10)
+```
+
+## Filters
+
+Two filters was provided:
+
+- Number of cylinders;
+- Transmission type;
+
+## Output
+
+Main output consist of two parts: summarize data table and Horse power histogramm;
+
+## Result
+
+You can see full result by <a href="https://yevheniiromanenko.shinyapps.io/FinalShinyApp/">link</a>;
+

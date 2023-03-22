@@ -11,6 +11,8 @@ current_data <- mtcars[1:10]
 ui <- fluidPage(
   # Title
   titlePanel("MTCars Data"),
+  h3("Yevhenii Romanenko"),
+  h4("17-03-2023"),
   
   # Sidebar with input controls
   sidebarLayout(
